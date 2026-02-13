@@ -22,6 +22,7 @@ function markdownPlugin(): PluginOption {
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: 'lweb-vue',
   plugins: [
     vue(),
     vueDevTools(),
